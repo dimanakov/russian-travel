@@ -1,0 +1,5 @@
+.places__place {
+  display: grid;
+  grid-template-columns: 460px auto;
+  gap: 48px 40px;
+}

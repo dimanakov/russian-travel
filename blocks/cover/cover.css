@@ -1,0 +1,12 @@
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1184px;
+  height: 740px;
+  background-image: url('../../../images/__background_do_baykala_1184.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
