@@ -5,3 +5,11 @@
   padding: 0;
   gap: 19px;
 }
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .footer__links {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

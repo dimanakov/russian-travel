@@ -3,9 +3,17 @@
   color: #fff;
   font-size: 16px;
   line-height: 18px;
-  font-family: Inter;
+  transition: opacity .5s ease;
 }
 
 .footer__link:hover {
   opacity: .8;
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 23px;
+  }
 }

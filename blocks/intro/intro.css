@@ -1,5 +1,26 @@
 .intro {
   max-width: 690px;
-  position: relative;
-  left: 148px;
+  margin: 92px auto 0 148px;
+}
+
+/* для экранов 1024px */
+@media (max-width: 1279px) {
+  .intro {
+    margin: 92px auto 0 48px;
+  }
+}
+
+/* для экранов 768px */
+@media (max-width: 1023px) and (min-width: 721px) {
+  .intro {
+    max-width: 720px;
+    margin: 86px 24px 0;
+  }
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .intro {
+    margin: 64px 16px 0;
+  }
 }

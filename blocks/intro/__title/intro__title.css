@@ -1,7 +1,15 @@
 .intro__title {
+  margin: 0;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   color: #fff;
-  margin: 92px 0 0;
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

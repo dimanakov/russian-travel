@@ -5,3 +5,20 @@
   line-height: 76px;
   color: #fff;
 }
+
+/* для экранов 768px */
+@media (max-width: 1023px) {
+  .places__title {
+    font-size: 42px;
+    line-height: 1.11;
+  }
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 16px;
+  }
+}

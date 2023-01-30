@@ -3,7 +3,16 @@
   color: #fff;
   font-size: 96px;
   line-height: 100px;
-  width: 720px;
+  max-width: 720px;
   margin: 0;
   text-align: center;
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }
