@@ -1,0 +1,39 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1184px;
+  list-style-type: none;
+  column-gap: 16px;
+  row-gap: 16px;
+  margin: 92px auto 0;
+}
+
+/* для экранов 1024px */
+@media (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 928px;
+    column-gap: 14px;
+    row-gap: 14px;
+  }
+}
+
+/* для экранов 768px */
+@media (max-width: 1023px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 720px;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .photo-grid {
+    max-width: 288px;
+    grid-template-columns: 100%;
+    margin: 64px auto 0;
+    row-gap: 12px;
+  }
+}

@@ -1,0 +1,12 @@
+.places__paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .places__paragraphs {
+    margin: 0 16px;
+  }
+}

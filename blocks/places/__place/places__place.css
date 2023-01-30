@@ -1,0 +1,33 @@
+.places__place {
+  display: grid;
+  grid-template-columns: 460px auto;
+  gap: 48px 40px;
+  margin: 0 auto;
+  max-width: 984px;
+}
+
+/* для экранов 1024px */
+@media (max-width: 1279px) {
+  .places__place {
+    grid-template-columns: 440px auto;
+    max-width: 928px;
+    gap: 48px 32px;
+  }
+}
+
+/* для экранов 768px */
+@media (max-width: 1023px) {
+  .places__place {
+    grid-template-columns: 340px auto;
+    max-width: 720px;
+    gap: 48px 28px;
+  }
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .places__place {
+    grid-template-columns: minmax(min-content, 320px);
+    gap: 32px 40px;
+  }
+}

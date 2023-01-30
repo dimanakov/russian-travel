@@ -1,0 +1,20 @@
+.places__paragraph {
+  font-size: 18px;
+  line-height: 1.62;
+  color: #fff;
+  margin: 0;
+}
+
+/* для экранов 768px */
+@media (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 16px;
+  }
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .places__paragraph {
+    line-height: 1.625;
+  }
+}

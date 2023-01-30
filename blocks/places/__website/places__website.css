@@ -1,0 +1,21 @@
+.places__website {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: end;
+}
+
+/* для экранов 768px */
+@media (max-width: 1023px) {
+  .places__website {
+    gap: 14px;
+  }
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .places__website {
+    gap: 12px;
+    margin: 0 16px;
+  }
+}

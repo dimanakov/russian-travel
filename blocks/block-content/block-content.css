@@ -1,0 +1,20 @@
+.block-content {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+/* для экранов 768px */
+@media (max-width: 1023px) {
+  .block-content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .block-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
