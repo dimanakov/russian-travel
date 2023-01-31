@@ -10,7 +10,6 @@
 /* для экранов 320px */
 @media (max-width: 720px) {
   .lead__subtitle {
-    text-indent: -6px;
     max-width: 288px;
     margin: 16px 0 0;
     font-size: 16px;

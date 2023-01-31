@@ -18,12 +18,16 @@
       <img src="./images/header__logo.svg"
            alt="логотип - карта России"
            class="header__logo">
-      <nav class="header__links">
-        <a href="#"
-           class="header__lang-link">Ru</a>
-        <a href="#"
-           class="header__lang-link">En</a>
-      </nav>
+      <ul class="header__links">
+        <li>
+          <a href="#"
+             class="header__lang-link header__lang-link_active">Ru</a>
+        </li>
+        <li>
+          <a href="#"
+             class="header__lang-link">En</a>
+        </li>
+      </ul>
     </header>
     <main>
       <!-- block lead -->
@@ -61,7 +65,7 @@
           интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
           <li>Часовых поясов
-            <span class="intro__lalue">11</span>
+            <span class="intro__value">11</span>
           </li>
           <li>Объектов природного наследия ЮНЕСКО
             <span class="intro__value">12</span>
@@ -78,7 +82,8 @@
         </ul>
       </section>
       <!-- block photo-grid -->
-      <section class="photo-grid block-content">
+      <section class="photo-grid block-content"
+               aria-label="галерея">
         <img src="/images/photo-grid-train.jpg"
              alt="вид из поезда"
              class="photo-grid__item">
@@ -119,10 +124,10 @@
       <!-- block places -->
       <section class="places">
         <div class="places__place">
-          <h2 class="places__title places__title_rpadding">Куршская коса
+          <h2 class="places__title">Куршская коса
           </h2>
           <div class="places__website">
-            <h3 class="places__url-heading">URL</h3>
+            <h3 class="places__url-heading">url</h3>
             <a href="http://park-kosa.ru"
                class="places__link"
                target="_blank"
@@ -160,7 +165,7 @@
         <div class="places__place">
           <h2 class="places__title">Кольский</h2>
           <div class="places__website">
-            <h3 class="places__url-heading">URL</h3>
+            <h3 class="places__url-heading">url</h3>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                class="places__link"
                target="_blank"
@@ -200,7 +205,7 @@
         <div class="places__place">
           <h2 class="places__title">Алтай</h2>
           <div class="places__website">
-            <h3 class="places__url-heading">URL</h3>
+            <h3 class="places__url-heading">url</h3>
             <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
                class="places__link"
                target="_blank"
@@ -234,7 +239,7 @@
         <div class="places__place">
           <h2 class="places__title">Зимний Байкал</h2>
           <div class="places__website">
-            <h3 class="places__url-heading">URL</h3>
+            <h3 class="places__url-heading">url</h3>
             <a href="https://vk.com/baikalmile"
                class="places__link"
                target="_blank"
@@ -264,7 +269,7 @@
         <div class="places__place">
           <h2 class="places__title">Карелия</h2>
           <div class="places__website">
-            <h3 class="places__url-heading">URL</h3>
+            <h3 class="places__url-heading">url</h3>
             <a href="http://vodlozero.ru"
                class="places__link"
                target="_blank"
@@ -297,9 +302,6 @@
       </section>
       <!-- block cover -->
       <section class="cover">
-        <img src="./images/cover__do-baykala.jpg"
-             class="cover__background"
-             alt="Железнодорожный транспортный узел">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala"
            class="cover__overlay"
            target="_blank"

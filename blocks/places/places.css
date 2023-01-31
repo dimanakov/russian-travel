@@ -15,7 +15,7 @@
 /* для экранов 320px */
 @media (max-width: 720px) {
   .places {
-    margin: 66px auto 0;
+    margin: 64px auto 0;
     row-gap: 50px;
   }
 }

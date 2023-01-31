@@ -1,17 +1,25 @@
 .cover__overlay {
-  grid-row: 1;
-  grid-column: 1;
+  position: relative;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image: url('../../../images/cover__do-baykala.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 740px;
+
+  gap: 32px;
+  cursor: pointer;
 }
 
 .cover__overlay:before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 100%;
+  top: 0;
+  bottom: 0;
   background-color: #2A2C2F;
   opacity: .3;
   transition: opacity .5s ease;
@@ -19,4 +27,26 @@
 
 .cover__overlay:hover:before {
   opacity: .8;
+}
+
+/* для экранов 1024px */
+@media (max-width: 1279px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+/* для экранов 768px */
+@media (max-width: 1023px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+/* для экранов 320px */
+@media (max-width: 720px) {
+  .cover__overlay {
+    min-height: 200px;
+    gap: 16px;
+  }
 }

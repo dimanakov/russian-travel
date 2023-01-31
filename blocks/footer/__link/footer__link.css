@@ -4,6 +4,7 @@
   font-size: 16px;
   line-height: 18px;
   transition: opacity .5s ease;
+  cursor: pointer;
 }
 
 .footer__link:hover {
@@ -14,6 +15,6 @@
 @media (max-width: 720px) {
   .footer__link {
     font-size: 24px;
-    line-height: 23px;
+    line-height: 24px;
   }
 }
