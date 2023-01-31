@@ -3,14 +3,6 @@
   padding-top: 28px;
   padding-bottom: 24px;
   margin: 0 auto;
-  background-color: #2a2c2f;
-}
-
-/* для экранов 768px */
-@media (max-width: 1023px) {
-  .page-content {
-    padding-top: 28px;
-  }
 }
 
 /* для экранов 320px */
