@@ -15,3 +15,7 @@ grid, flexbox, трансформация, медиа-запросы, подкл
 
 Ссылка на проект
 https://dimanakov.github.io/russian-travel/index.html
+
+---
+
+Статус проекта: завершён.
